@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>abc</class>
+ <widget class="QWidget" name="abc">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,16 +11,51 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>test</string>
   </property>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QLCDNumber" name="lcdNumber">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>60</y>
-     <width>51</width>
-     <height>51</height>
+     <x>40</x>
+     <y>80</y>
+     <width>221</width>
+     <height>151</height>
     </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>false</bool>
+   </property>
+   <property name="digitCount">
+    <number>5</number>
+   </property>
+   <property name="mode">
+    <enum>QLCDNumber::Dec</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sub</string>
    </property>
   </widget>
  </widget>
