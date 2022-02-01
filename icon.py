@@ -16,7 +16,7 @@ class Example(QWidget):
         #设置窗口的标题
         self.setWindowTitle('Icon')
         #设置窗口的图标，引用当前目录下的web.png图片
-        self.setWindowIcon(QIcon('img1.jpg'))
+        self.setWindowIcon(QIcon('./image/img1.jpg'))
 
         #显示窗口
         self.show()
